@@ -23,7 +23,7 @@ var summaries = new[]
 
 app.MapGet("/helloworld", () =>
 {
-    return "hello patrick";
+    return "hello patrick 2";
 })
 .WithName("HelloWorld")
 .WithOpenApi();
